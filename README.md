@@ -2,7 +2,7 @@
 
 Jasper - is a set of libraries that provides the ability to create scalable, flexible single page applications (SPA).
 
-Jasper uses AngularJS and use components approach to build rich javascript application.
+Jasper works over AngularJS and provide component based principle to build rich javascript applications.
 
 ## Get started
 
