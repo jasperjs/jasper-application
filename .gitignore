@@ -30,6 +30,8 @@ _ReSharper*/
 *.ssms_suo
 *.backup
 *.gitattributes
+
+.idea
 node_modules
 bower_components
 app/**/*.js
