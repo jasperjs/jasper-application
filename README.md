@@ -23,7 +23,17 @@ Jasper works over AngularJS and provide component based principle to build rich 
 
 To test application run `grunt test`
 
-See [documentation] how to create jasper application components.
+Altogether:
+
+``` shell
+git clone git@github.com:jasperjs/jasper-application.git
+cd jasper-application
+npm install
+yo jasper jasper-app
+grunt test
+```
+
+See [documentation](https://github.com/jasperjs/jasper-application/wiki) how to create jasper application components.
 
 When your application is done - run `grunt package` to create distributable application package.
 Package will appear in 'dist' folder of the application.
