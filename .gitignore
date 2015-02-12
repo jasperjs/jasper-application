@@ -36,4 +36,8 @@ node_modules
 bower_components
 app/**/*.js
 app/**/*.js.map
+
+test/**/*.js
+test/**/*.js.map
+
 dist
