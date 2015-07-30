@@ -33,6 +33,8 @@ yo jasper jasper-app
 grunt test
 ```
 
+To start develop server run `node server`, then navigate to http://localhost:<port>/
+
 See [documentation](https://github.com/jasperjs/jasper-application/wiki) how to create jasper application components.
 
 When your application is done - run `grunt package` to create distributable application package.
