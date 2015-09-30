@@ -1,19 +1,19 @@
-# Jasper Application
+# Jasper
 
-Jasper - is a set of libraries that provides the ability to create scalable, flexible single page applications (SPA).
+Jasper is a set of libraries which enable developers to create scalable and flexible single page applications (SPA) using component approach. Jasper is built on AngularJS.
 
-Jasper works over AngularJS and provide component based principle to build rich javascript applications.
+Jasper applications are written in JavaScript or any language that is transpiled to it, like [TypeScript](http://typescriptlang.org).
 
-## Get started
+## Getting started
 
-### Reqruirements
+### Requirements
 
 - [NodeJs](http://nodejs.org/)
 - [Grunt](http://gruntjs.com/) - for building and testing jasper application: `npm install -g grunt-cli`
 - [Yeoman](http://yeoman.io/) - for scaffolding jasper application: `npm install -g yo`
 
 
-### Creating application
+### Creating an application and running tests
 
 1. Clone or download this repository
 2. Run `npm install` to install all dependencies
@@ -21,7 +21,7 @@ Jasper works over AngularJS and provide component based principle to build rich 
 4. Run `grunt` to build created application
 5. Browse to 'index.html' to see the application
 
-To test application run `grunt test`
+To test application run `grunt test`.
 
 Altogether:
 
@@ -33,9 +33,14 @@ yo jasper jasper-app
 grunt test
 ```
 
-To start develop server run `node server`, then navigate to http://localhost:{port}/
+To start developing server run `node server`, then navigate to `http://localhost:{port}`.
 
-See [documentation](https://github.com/jasperjs/jasper-application/wiki) how to create jasper application components.
 
-When your application is done - run `grunt package` to create distributable application package.
-Package will appear in 'dist' folder of the application.
+### Creating application components
+
+See this [documentation](https://github.com/jasperjs/jasper-application/wiki).
+
+
+### Packaging the application
+
+At any time run `grunt package` to create distributable application package. It will appear in the `dist` folder of the application.
