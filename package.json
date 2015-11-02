@@ -18,6 +18,7 @@
     "scriptjs": "^2.5.8"
   },
   "devDependencies": {
+    "grunt-contrib-clean": "^0.6.0",
     "angular-mocks": "^1.4.7",
     "express": "^4.13.3",
     "generator-jasper": "^0.5.4",
@@ -25,6 +26,7 @@
     "grunt-jasper": "^0.6.0",
     "grunt-karma": "^0.10.1",
     "grunt-typescript": "^0.6.2",
+
     "jasmine-core": "^2.3.4",
     "jdebug": "^0.3.0",
     "jdebug-server": "^0.3.4",
